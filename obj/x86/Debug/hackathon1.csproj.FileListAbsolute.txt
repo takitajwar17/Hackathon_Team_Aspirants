@@ -11,3 +11,5 @@ C:\Users\User\Downloads\hackathon\obj\x86\Debug\hackathon1.csproj.CoreCompileInp
 C:\Users\User\Downloads\hackathon\obj\x86\Debug\hackathon1.exe
 C:\Users\User\Downloads\hackathon\obj\x86\Debug\hackathon1.pdb
 C:\Users\User\Downloads\hackathon\obj\x86\Debug\hackathon1.createcv.resources
+C:\Users\User\Downloads\hackathon\obj\x86\Debug\hackathon1.MakeTemp.resources
+C:\Users\User\Downloads\hackathon\obj\x86\Debug\hackathon1.MP2.resources

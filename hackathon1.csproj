@@ -54,7 +54,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -66,6 +68,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MakeTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MakeTemp.Designer.cs">
+      <DependentUpon>MakeTemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MP2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MP2.Designer.cs">
+      <DependentUpon>MP2.cs</DependentUpon>
+    </Compile>
     <Compile Include="User.cs" />
     <Compile Include="createcv.cs">
       <SubType>Form</SubType>
@@ -93,6 +107,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MakeTemp.resx">
+      <DependentUpon>MakeTemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MP2.resx">
+      <DependentUpon>MP2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -122,6 +142,12 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>if exist "$(TargetPath).locked" del "$(TargetPath).locked"
-if exist "$(TargetPath)" if not exist "$(TargetPath).locked" move "$(TargetPath)" "$(TargetPath).locked"</PreBuildEvent>
+if exist "$(TargetPath)" if not exist "$(TargetPath).locked" move "$(TargetPath)" "$(TargetPath).locked"
+
+(if exist "$(TargetDir)*old.pdb" del "$(TargetDir)*old.pdb") &amp; (if exist "$(TargetDir)*.pdb" ren "$(TargetDir)*.pdb" *.old.pdb)</PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>

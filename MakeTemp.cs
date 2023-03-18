@@ -10,38 +10,42 @@ using System.Windows.Forms;
 
 namespace hackathon1
 {
-    public partial class createcv : Form
+    public partial class MakeTemp : Form
     {
-        public createcv()
+        public MakeTemp()
         {
             InitializeComponent();
-         
         }
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void label9_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void createcv_Load(object sender, EventArgs e)
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
         {
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MakeTemp mt = new MakeTemp();
-            mt.Show();
+            MP2 m = new MP2();
+            m.Show();
             this.Hide();
         }
     }
