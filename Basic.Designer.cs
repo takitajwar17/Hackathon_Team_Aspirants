@@ -110,7 +110,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(282, 261);
+            this.label6.Location = new System.Drawing.Point(282, 274);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(112, 16);
             this.label6.TabIndex = 5;
@@ -206,6 +206,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(353, 22);
             this.textBox6.TabIndex = 15;
+            this.textBox6.Text = "Example: +880";
             // 
             // textBox7
             // 
@@ -213,6 +214,7 @@
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(354, 22);
             this.textBox7.TabIndex = 16;
+            this.textBox7.Text = "abcd@gmail.com";
             // 
             // pictureBox1
             // 
@@ -250,12 +252,13 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(595, 574);
+            this.button1.Location = new System.Drawing.Point(595, 558);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 20;
-            this.button1.Text = "Next";
+            this.button1.Text = "NEXT";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Basic
             // 

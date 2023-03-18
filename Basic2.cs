@@ -21,5 +21,17 @@ namespace hackathon1
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Basic b1 = new Basic();
+            b1.Show();
+            this.Hide();
+        }
     }
 }
