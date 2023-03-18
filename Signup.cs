@@ -47,7 +47,7 @@ namespace hackathon1
             {
                 foreach (User u in Utility.users)
                 {
-                    if (u.username == username)
+                    if (u.username != username)
                     {
 
                         

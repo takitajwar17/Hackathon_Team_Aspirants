@@ -31,7 +31,7 @@ namespace hackathon1
 
             foreach(User u in Utility.users)
             {
-               if(u.email != Email && u.password != Password)
+               if(u.email != Email || u.password != Password)
                 {
                     MessageBox.Show("Wrong Email or Password");
                 }
