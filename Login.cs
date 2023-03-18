@@ -17,6 +17,8 @@ namespace hackathon1
             InitializeComponent();
         }
 
+        
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -24,6 +26,24 @@ namespace hackathon1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string Email = textBox1.Text;
+            string Password = textBox2.Text;
+
+            foreach(User u in Utility.users)
+            {
+               if(u.email != Email && u.password != Password)
+                {
+                    MessageBox.Show("Wrong Email or Password");
+                }
+               else
+                {
+                   createcv c = new createcv();
+                    c.Show();
+                    this.Hide();
+                }
+            }
+           
+           
 
         }
 
@@ -45,6 +65,11 @@ namespace hackathon1
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

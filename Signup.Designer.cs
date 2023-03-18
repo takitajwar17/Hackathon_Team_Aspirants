@@ -56,7 +56,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(228, 438);
+            this.label2.Location = new System.Drawing.Point(224, 438);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(88, 33);
             this.label2.TabIndex = 1;
@@ -76,7 +76,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(76, 528);
+            this.label4.Location = new System.Drawing.Point(84, 528);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(229, 33);
             this.label4.TabIndex = 3;
@@ -142,7 +142,7 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Location = new System.Drawing.Point(531, 12);
+            this.groupBox1.Location = new System.Drawing.Point(537, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(748, 1042);
             this.groupBox1.TabIndex = 9;
