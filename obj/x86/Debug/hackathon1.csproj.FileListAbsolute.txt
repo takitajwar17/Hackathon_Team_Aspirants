@@ -10,3 +10,4 @@ C:\Users\User\Downloads\hackathon\obj\x86\Debug\hackathon1.csproj.GenerateResour
 C:\Users\User\Downloads\hackathon\obj\x86\Debug\hackathon1.csproj.CoreCompileInputs.cache
 C:\Users\User\Downloads\hackathon\obj\x86\Debug\hackathon1.exe
 C:\Users\User\Downloads\hackathon\obj\x86\Debug\hackathon1.pdb
+C:\Users\User\Downloads\hackathon\obj\x86\Debug\hackathon1.createcv.resources
