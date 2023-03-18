@@ -54,7 +54,7 @@ namespace hackathon1
                         
                             if (password == ConfirmPass)
                             {
-                                string path = "TextFile1.txt";
+                                string path = @"C:\Users\User\Downloads\hackathon\bin\Debug\form\TextFile1.txt";
                                 StreamWriter sw = File.AppendText(path);
                                 User uu = new User(username, email, password);
                                 Utility.users.Add(uu);

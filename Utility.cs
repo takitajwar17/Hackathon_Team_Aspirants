@@ -13,7 +13,7 @@ namespace hackathon1
 
         public static void load_users()
         {
-            string path = "TextFile1.txt";
+            string path = @"C:\Users\User\Downloads\hackathon\bin\Debug\form\TextFile1.txt";
             StreamReader srr = new StreamReader(path);
 
             var strr = srr.ReadLine();
