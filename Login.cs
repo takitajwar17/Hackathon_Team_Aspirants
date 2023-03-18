@@ -36,5 +36,12 @@ namespace hackathon1
         {
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Signup su = new Signup();
+            su.Show();
+            this.Hide();
+        }
     }
 }
