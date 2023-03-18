@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace hackathon1
 {
-    public partial class Form1 : Form
+    public partial class Basic2 : Form
     {
-        public Form1()
+        public Basic2()
         {
             InitializeComponent();
+        }
+
+        private void Basic2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
