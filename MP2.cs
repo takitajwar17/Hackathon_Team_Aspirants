@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace hackathon1
 {
-    public partial class Form1 : Form
+    public partial class MP2 : Form
     {
-        public Form1()
+        public MP2()
         {
             InitializeComponent();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
