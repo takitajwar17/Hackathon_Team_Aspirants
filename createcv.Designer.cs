@@ -68,7 +68,7 @@
             this.groupBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox1.BackgroundImage")));
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Location = new System.Drawing.Point(219, 12);
+            this.groupBox1.Location = new System.Drawing.Point(289, 107);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(620, 711);
             this.groupBox1.TabIndex = 3;
@@ -79,7 +79,7 @@
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.Location = new System.Drawing.Point(1003, 107);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(586, 616);
+            this.pictureBox1.Size = new System.Drawing.Size(758, 616);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 

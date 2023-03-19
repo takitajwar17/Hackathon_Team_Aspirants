@@ -68,17 +68,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FinalCV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinalCV.Designer.cs">
+      <DependentUpon>FinalCV.cs</DependentUpon>
+    </Compile>
     <Compile Include="MakeTemp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MakeTemp.Designer.cs">
       <DependentUpon>MakeTemp.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MP2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MP2.Designer.cs">
-      <DependentUpon>MP2.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
     <Compile Include="createcv.cs">
@@ -105,14 +105,14 @@
     <EmbeddedResource Include="createcv.resx">
       <DependentUpon>createcv.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FinalCV.resx">
+      <DependentUpon>FinalCV.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MakeTemp.resx">
       <DependentUpon>MakeTemp.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MP2.resx">
-      <DependentUpon>MP2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
