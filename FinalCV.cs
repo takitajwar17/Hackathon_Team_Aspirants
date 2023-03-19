@@ -36,7 +36,6 @@ namespace hackathon1
             label23.Text = MakeTemp.exp;
             label24.Text = MakeTemp.skills;
 
-
         }
     }
   

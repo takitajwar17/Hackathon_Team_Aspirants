@@ -13,24 +13,23 @@ namespace hackathon1
 {
     public partial class MakeTemp : Form
     {
-        public static string firstname = textBox1.Text;
-        public static string surname = textBox2.Text;
-        public static string city = textBox3.Text;
-        public static string country = textBox4.Text;
-        public static int postcode = Convert.ToInt32(textBox5.Text);
-        public static double phone = Convert.ToInt32(textBox6.Text);
-        public static string email = textBox7.Text;
-        public static string school = textBox8.Text;
-        public static string college = textBox10.Text;
-        public static string uni = textBox12.Text;
-        public static string exp = textBox14.Text;
-        public static string skills = textBox18.Text;
+       
         public MakeTemp()
         {
             InitializeComponent();
         }
 
-        
+        public static string firstname = "";
+        public static string surname = "";
+        public static string city ="";
+        public static string country ="";
+        public static string email = "";
+        public static string school = "";
+        public static string college = "";
+        public static string uni ="";
+        public static string exp ="";
+        public static string skills = "";
+
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
@@ -59,8 +58,16 @@ namespace hackathon1
 
         private void button1_Click(object sender, EventArgs e)
         {
-              
-
+            firstname = textBox1.Text;
+            surname = textBox2.Text;
+            city = textBox3.Text;
+            country = textBox4.Text;
+            email = textBox7.Text;
+            school = textBox8.Text;
+            college = textBox10.Text;
+            uni = textBox12.Text;
+            exp = textBox14.Text;
+            skills = textBox18.Text;
 
 
             FinalCV f1 = new FinalCV();

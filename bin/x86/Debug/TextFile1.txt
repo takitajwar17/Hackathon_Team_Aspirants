@@ -6,3 +6,6 @@ ns,we,123456
 a,b,123456
 AD,sesa@gmail.com,as1234
 ew,e,123456
+na,fi,123456
+E,W,123456
+e,er,123456
